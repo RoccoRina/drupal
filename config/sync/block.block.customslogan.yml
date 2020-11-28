@@ -1,0 +1,33 @@
+uuid: 81959d62-ba36-4288-9e22-e1f0ae9097dc
+langcode: ru
+status: true
+dependencies:
+  module:
+    - custom_rina
+    - system
+    - user
+  theme:
+    - bartik
+id: customslogan
+theme: bartik
+region: footer_third
+weight: 0
+provider: null
+plugin: custom_rina_custom_slogan
+settings:
+  id: custom_rina_custom_slogan
+  label: 'Custom Slogan'
+  provider: custom_rina
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
