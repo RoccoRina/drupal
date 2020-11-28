@@ -1,0 +1,22 @@
+uuid: e60c02db-0540-40ec-86bc-f4bb14d84386
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dell_theme
+_core:
+  default_config_hash: EAPpof-OFVhvV9Xi5WsRB827n9EceoSDSXG8EFSjhGM
+id: dell_theme_messages
+theme: dell_theme
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

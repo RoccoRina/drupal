@@ -1,0 +1,37 @@
+uuid: 300e2fb3-3153-4ed4-b0b1-93f54dde2394
+langcode: ru
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+weight: 3
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create article content'
+  - 'create page content'
+  - 'create product content'
+  - 'delete any article content'
+  - 'delete any page content'
+  - 'delete any product content'
+  - 'delete article revisions'
+  - 'delete own article content'
+  - 'delete own page content'
+  - 'delete own product content'
+  - 'delete page revisions'
+  - 'delete product revisions'
+  - 'edit any article content'
+  - 'edit any page content'
+  - 'edit any product content'
+  - 'edit own article content'
+  - 'edit own page content'
+  - 'edit own product content'
+  - 'revert article revisions'
+  - 'revert page revisions'
+  - 'revert product revisions'
+  - 'view article revisions'
+  - 'view own unpublished content'
+  - 'view page revisions'
+  - 'view product revisions'
+  - 'view the administration theme'

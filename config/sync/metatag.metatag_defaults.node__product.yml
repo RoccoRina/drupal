@@ -1,0 +1,14 @@
+uuid: bbf4badc-3952-481c-9cce-4a9969c01177
+langcode: ru
+status: true
+dependencies: {  }
+id: node__product
+label: 'Содержимое: Продукт'
+tags:
+  title: 'Купить [node:title] | [site:name]'
+  schema_product_category: '[node:field_product_line]'
+  schema_product_description: '[node:body]'
+  schema_product_image: 'a:2:{s:5:"@type";s:11:"ImageObject";s:3:"url";s:29:"[node:field_photo:entity:url]";}'
+  schema_product_name: '[node:title]'
+  schema_product_type: Product
+  schema_product_url: '[node:url]'

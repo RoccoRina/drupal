@@ -1,0 +1,27 @@
+uuid: 54375e6a-f955-48a9-8295-3e5e8863a50e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - dell_theme
+_core:
+  default_config_hash: H6dFO9ZEb5ZG3KwDYHNTM68B9zbiHVvzMtDnxVKakgc
+id: dell_theme_tools
+theme: dell_theme
+region: hidden_blocks
+weight: -6
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

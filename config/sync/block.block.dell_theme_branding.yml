@@ -1,0 +1,25 @@
+uuid: 3089cca7-2fd2-4c78-8723-8c3863d53e1f
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dell_theme
+_core:
+  default_config_hash: 2YUPWPauivlBm8V4mmJDoS2L2y-An184JKejfBOdOEs
+id: dell_theme_branding
+theme: dell_theme
+region: site_branding
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

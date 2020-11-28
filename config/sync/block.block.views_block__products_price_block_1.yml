@@ -1,0 +1,24 @@
+uuid: d4aa4483-0d97-4b40-8f44-f28ef47d17d3
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.products_price
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__products_price_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:products_price-block_1'
+settings:
+  id: 'views_block:products_price-block_1'
+  label: 'Топ 3 цен'
+  provider: views
+  label_display: visible
+  views_label: 'Топ 3 цен'
+  items_per_page: none
+visibility: {  }

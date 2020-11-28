@@ -1,0 +1,11 @@
+uuid: fd3b137a-1cd1-411f-99a9-5d29725480b9
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: I0ambmTIGFVABBaGMLbQcw-a5eWKxnsz7k2COEPKga4
+id: default_db
+label: 'Основная база данных'
+type: DefaultDB
+config:
+  name: 'Default Drupal Database'

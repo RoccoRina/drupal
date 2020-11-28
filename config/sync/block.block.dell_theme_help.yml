@@ -1,0 +1,22 @@
+uuid: 4e70865c-f3a6-46a9-a7f7-c3c6126540a0
+langcode: ru
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - dell_theme
+_core:
+  default_config_hash: nTb1lHIIESRE7bhOAd84EEahtSReW5L37MVLF5KyVrg
+id: dell_theme_help
+theme: dell_theme
+region: content
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

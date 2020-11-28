@@ -1,0 +1,20 @@
+uuid: 702bb486-d4a8-4621-8e5c-f9d9af62a21c
+langcode: ru
+status: true
+dependencies:
+  theme:
+    - dell_theme
+_core:
+  default_config_hash: eygL-_5_izUstAfyRFzbpxlSsJTMbu_kbOGpqzA7cmg
+id: dell_theme_page_title
+theme: dell_theme
+region: page_header
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

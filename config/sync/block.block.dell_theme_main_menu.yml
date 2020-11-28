@@ -1,0 +1,27 @@
+uuid: 8823fecd-269d-4d2a-ad94-a646750cb2e6
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - dell_theme
+_core:
+  default_config_hash: VCwNgU_2WIDFyUHQt6nkaWiVnyHG6XAPXvm7FllVUZ0
+id: dell_theme_main_menu
+theme: dell_theme
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 5
+  expand_all_items: false
+visibility: {  }

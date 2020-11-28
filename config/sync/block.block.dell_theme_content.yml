@@ -1,0 +1,22 @@
+uuid: 4612f8b1-23ca-4a69-816b-cd1a17499bb9
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dell_theme
+_core:
+  default_config_hash: cKJex5Uorm1TxwCjWyrhCpoj35radobSfy6Ub1zGBoo
+id: dell_theme_content
+theme: dell_theme
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

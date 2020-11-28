@@ -1,0 +1,11 @@
+uuid: 718cea6b-0ce6-4ece-a2fc-4541ce2ba99d
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Da5YWhJdKLxaJ9gDRI1u5oCbm5WBxiiDgA4M1QrOEPQ
+id: '403'
+label: '403 доступ запрещен'
+tags:
+  canonical_url: '[site:url]'
+  shortlink: '[site:url]'

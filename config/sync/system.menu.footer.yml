@@ -1,0 +1,10 @@
+uuid: cd636328-3227-4afe-8a6e-5ebf44391e38
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7yrlW5z9zdg2eBucB2GPqXKSMQfH9lSRSO4DbWF7AFc
+id: footer
+label: Подвал
+description: 'Site information links'
+locked: true

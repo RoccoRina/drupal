@@ -1,0 +1,25 @@
+uuid: 74b81e6a-406b-4c22-8993-79d3fcb11d76
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cf20a350-f6f3-4f2e-a05d-ba5af60246bb'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: contacts
+theme: bartik
+region: footer_second
+weight: 0
+provider: null
+plugin: 'block_content:cf20a350-f6f3-4f2e-a05d-ba5af60246bb'
+settings:
+  id: 'block_content:cf20a350-f6f3-4f2e-a05d-ba5af60246bb'
+  label: Контакты
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

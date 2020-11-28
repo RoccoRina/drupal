@@ -1,0 +1,20 @@
+uuid: 0f554baf-4dcf-4b48-9bfc-5b831d5a152a
+langcode: ru
+status: true
+dependencies:
+  theme:
+    - dell_theme
+_core:
+  default_config_hash: ieghZ097mY9lSP0MbDzbQPVZb7OIkpefQjrRb9KbYWs
+id: dell_theme_local_actions
+theme: dell_theme
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

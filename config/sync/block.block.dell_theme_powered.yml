@@ -1,0 +1,22 @@
+uuid: e7c2d670-5918-4523-a693-96b15f599e7a
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dell_theme
+_core:
+  default_config_hash: ZWo7RK3znM_xBRLwi9PsZnM6PJA3G9Mx6zFC2KwCe1M
+id: dell_theme_powered
+theme: dell_theme
+region: hidden_blocks
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

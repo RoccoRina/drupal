@@ -1,0 +1,10 @@
+uuid: fee154d4-241c-4d20-9fca-c314832056e4
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: node.token
+label: Token
+targetEntityType: node
+cache: true

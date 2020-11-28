@@ -1,0 +1,23 @@
+uuid: ba53d1cc-780b-4c7c-8ff4-a5e1927574d1
+langcode: ru
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - dell_theme
+_core:
+  default_config_hash: HUhOlI9iilV27UqUHUMVB2HI555TNcp3c5qMS1SxXoQ
+id: dell_theme_search
+theme: dell_theme
+region: search_box
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: node_search
+visibility: {  }

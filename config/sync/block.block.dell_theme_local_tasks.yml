@@ -1,0 +1,22 @@
+uuid: 7032eddf-1a76-4ca7-a624-53184851c2d7
+langcode: ru
+status: true
+dependencies:
+  theme:
+    - dell_theme
+_core:
+  default_config_hash: u2RKeim3-akpSCGTmGM1DZE9WwDy25PG3yGXOgNCFZk
+id: dell_theme_local_tasks
+theme: dell_theme
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

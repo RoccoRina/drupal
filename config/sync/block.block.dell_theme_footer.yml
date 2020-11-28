@@ -1,0 +1,27 @@
+uuid: 02e112c6-7044-4c0c-b059-57e476d81f8c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - dell_theme
+_core:
+  default_config_hash: nH3hJAahvynclvGrWk9pESqZWU34iqcwMos58BR49Hw
+id: dell_theme_footer
+theme: dell_theme
+region: hidden_blocks
+weight: -9
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

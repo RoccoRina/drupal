@@ -1,0 +1,14 @@
+uuid: 2b137f7b-a047-416e-ad0d-f04439b31c6a
+name: drup
+mail: roccosart16@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: ru
+default_langcode: ru
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
