@@ -9,6 +9,7 @@ is_admin: null
 permissions:
   - 'access content overview'
   - 'access toolbar'
+  - 'administer rina module'
   - 'create article content'
   - 'create page content'
   - 'create product content'
