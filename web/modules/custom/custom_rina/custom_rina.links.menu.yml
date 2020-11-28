@@ -1,0 +1,5 @@
+custom_rina.admin_settings:
+  title: 'Custom news settings'
+  description: 'Configure the news settings.'
+  parent: system.admin_config_services
+  route_name: custom_rina.admin_page

@@ -1,0 +1,8 @@
+custom_rina.admin_page:
+  path: '/admin/config/services/news'
+  defaults:
+    _title: 'News'
+    _controller: '\Drupal\custom_rina\Controller\CustomRinaController::build'
+  requirements:
+    _permission: 'administer rina module'
+    #_permission: 'access content'
