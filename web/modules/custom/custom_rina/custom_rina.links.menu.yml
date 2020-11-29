@@ -3,3 +3,9 @@ custom_rina.admin_settings:
   description: 'Configure the news settings.'
   parent: system.admin_config_services
   route_name: custom_rina.admin_page
+
+custom_rina.settings:
+  title: Settings
+  parent: system.admin_config_system
+  route_name: custom_rina.settings
+  weight: 10

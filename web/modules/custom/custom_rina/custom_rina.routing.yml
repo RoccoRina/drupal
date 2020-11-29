@@ -6,3 +6,11 @@ custom_rina.admin_page:
   requirements:
     _permission: 'administer rina module'
     #_permission: 'access content'
+
+custom_rina.settings:
+  path: '/admin/config/system/settings'
+  defaults:
+    _title: 'Settings'
+    _form: 'Drupal\custom_rina\Form\SettingsForm'
+  requirements:
+    _permission: 'administer site configuration'
